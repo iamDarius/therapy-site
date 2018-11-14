@@ -1,0 +1,23 @@
+.download-button {
+    background-color: #DCDEE5; 
+    color: #6A748E; 
+    border-radius: 20px; 
+    padding: 6px 15px;
+    font-weight: 500;    
+    font-size: .76rem;
+}
+
+.resource-card {
+    border: 1px solid rgb(221, 221, 221);
+    padding: 20px; 
+    border-radius: 5px; 
+    background-color: #fff;
+}
+
+.about-section {
+    background-color: #707992; 
+    height: 100%; 
+    width: 100%; 
+    margin-top: 40px; 
+    padding:60px 0;
+}
