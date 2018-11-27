@@ -7,6 +7,13 @@
     font-size: .76rem;
 }
 
+.main-banner {
+  height: 600px;
+  background-image: url(../assets/img/banner.png);
+  background-size: cover;
+  background-position: top;
+}
+
 .resource-card {
     border: 1px solid rgb(221, 221, 221);
     padding: 20px; 

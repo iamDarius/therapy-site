@@ -15,17 +15,49 @@
 </head>
 
 <body>
+    <header style="margin: 20px 0"> 
+        <div class="container">
+
+            <ul class="nav justify-content-end">
+                  <li>    Laura Bonini 
+                  </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#"> About Me</a>
+                    </li>
+                    <li class="nav-item"> <button type="button" style="margin-top: 5px">Contact Me</button>  </li>
+                  </ul>
+                </div>
+    </header>
+    <div class="main-banner">
+        <div class="container" style="padding-top: 205px">
+            <center>
+            <h1 style="color: #fff;font-size: 5.0rem;"> Healing & Health </h1>
+            <p style="color: #fff; font-size: 25px; font-weight: 300"> Book your appointment with a specialist today. <br>
+            Mental health is critical and can be helped today! </p>
+            </center>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
+            <div class="col">
             <center>
-                <h2>How Can I Help You?</h2>
+                <h2 style="margin-top: 70px">How Can I Help You?</h2>
                 <p style="color: #bdbdbd">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec
                     venenatis tellus, vitae
                     eleifend mi. Integer tincidunt metus sed auctor consectetur. Donec tristique quis diam sit amet
                     porta. </p><br>
             </center>
-            <div class="col-sm">
-                <center>
+        </div>
+    </div>
+    <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg">
+                    <center>
                     <div class="" style="height: 90px; width: 90px; display: block; background-color: #707992; border-radius: 50px; padding: 19px 10px; color: #fff;">
                         <i class="fas fa-brain fa-3x"></i>
                     </div>
@@ -37,8 +69,8 @@
                         porta. </p>
                 </center>
             </div>
-            <div class="col-sm">
-                <center>
+            <div class="col-xs-12 col-md-12 col-lg">
+                    <center>
                     <div class="" style="height: 90px; width: 90px; display: block; background-color: #707992; border-radius: 50px; padding: 19px 10px; color: #fff;">
                         <i class="fas fa-hands fa-3x"></i>
                     </div>
@@ -50,8 +82,8 @@
                         porta. </p>
                 </center>
             </div>
-            <div class="col-sm">
-                <center>
+            <div class="col-xs-12 col-md-12 col-lg">
+                    <center>
                     <div class="" style="height: 80px; width: 80px; display: block; background-color: #707992; border-radius: 50px; padding: 13px; color: #fff;">
                         <i class="fas fa-hands fa-3x"></i>
                     </div>
@@ -64,14 +96,14 @@
                 </center>
             </div>
         </div>
-    </div>
+    </div><br><br>
     <div class="about-section">
         <div class="container">
             <div class="row">
-                <div class="col-sm-5">
+                <div class="col-sm-12 col-lg-5">
 
                 </div>
-                <div class="col">
+                <div class="col-sm-12 col-lg-7">
                     <h3 style="color: #fff"> A Little About Laura </h3>
                     <p style="color: #a1abbc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec
                         venenatis tellus, vitae eleifend mi. Integer tincidunt metus sed auctor consectetur. Donec
@@ -93,8 +125,8 @@
                         porta. </p>
                 </center>
 
-                <div class="col-sm">
-                    <div class="resource-card">
+                <div class="col-lg-4 col-sm-12">
+                        <div class="resource-card">
                         <h5>Form 1</h5>
                         <p style="color: #bdbdbd">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec
                             venenatis tellus,
@@ -105,8 +137,8 @@
                             <span class="download-button">Download</span>
                     </div>
                 </div>
-                <div class="col-sm">
-                    <div class="resource-card">
+                <div class="col-lg-4 col-sm-12">
+                        <div class="resource-card">
                         <h5>Form 2</h5>
                         <p style="color: #bdbdbd">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec
                             venenatis tellus,
@@ -117,8 +149,8 @@
                             <span class="download-button">Download</span>
                         </div>
                 </div>
-                <div class="col-sm">
-                    <div class="resource-card">
+                <div class="col-lg-4 col-sm-12">
+                        <div class="resource-card">
                         <h5>Form 3</h5>
                         <p style="color: #bdbdbd">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec
                             venenatis tellus,
@@ -143,24 +175,44 @@
                     porta.
                 </p>
                 <form>
-                    <div class="form-row">
-                        <div class="form-group col-4">
-                            <label for="firstName">First Name</label>
-                            <input type="text" class="form-control" placeholder="Please enter your first name...">
+                        <div class="col-lg-8">
+                            <div class="form-group col" style="padding: 0 0">
+                                <label for="firstName" class="float-left">First Name</label>
+                                <input type="text" class="form-control" placeholder="Please enter your first name...">
+                            </div>
+                            <div class="form-group col" style="padding: 0 0">
+                                <label for="lastName" class="float-left">Last Name</label>
+                                <input type="text" class="form-control" placeholder="Please enter your last name...">
+                            </div>
                         </div>
-                        <div class="form-group col-4">
-                            <label for="lastName">Last Name</label>
-                            <input type="text" class="form-control" placeholder="Last name">
-                        </div>
-                    </div>
-                    <div class="form-group col-md-8">
-                        <label for="inputEmail">Email</label>
+                    
+                    <div class="form-group col-lg-8">
+                        <label for="inputEmail" class="float-left">Email</label>
                         <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                     </div>
+                    <div class="form-group col-lg-8">
+                            <label for="inputSubject" class="float-left">Subject</label>
+                            <input type="text" class="form-control" id="inputSubject" placeholder="Subject">
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <label for="textarea" class="float-left">Message</label>
+                        <textarea class="form-control" id="textarea" rows="4"></textarea>
+                    </div>
+                    <button type="button" class="btn" type="submit" style="background-color: #707992; color: #fff; border-radius: 10px">Submit</button>
                 </form>
             </center>
         </div>
     </div>
+
+    <footer style="background-color: #707992; height: 50px; width: 100%; margin-top: 70px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h5 style="color: #fff; margin-top: 12px"> Laura Bonini </h5>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
