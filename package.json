@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/iamDarius/therapy-site#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0"
+    "bootstrap": "^4.3.1"
   }
 }
